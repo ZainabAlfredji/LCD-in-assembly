@@ -1,0 +1,46 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATmega32U4"</DEVICE>
+ <WORKING_DIR>M:\lab2\lab2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>M:\lab2\lab2\lab2.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m32u4def.inc</FILE>
+  <FILE>M:\lab2\lab2\delay.inc</FILE>
+  <FILE>M:\lab2\lab2\lcd.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>M:\lab2\lab2\Debug\lab2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab2.map</FILE>
+  <FILE>lab2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>M:\lab2\lab2\lab2.asm</FILE><LINE>45</LINE></init>
+  <delay_1_micros><FILE>M:\lab2\lab2\delay.inc</FILE><LINE>12</LINE></delay_1_micros>
+  <delay_micros><FILE>M:\lab2\lab2\delay.inc</FILE><LINE>35</LINE></delay_micros>
+  <delay_ms><FILE>M:\lab2\lab2\delay.inc</FILE><LINE>61</LINE></delay_ms>
+  <loop_dms><FILE>M:\lab2\lab2\delay.inc</FILE><LINE>63</LINE></loop_dms>
+  <lcd_write_nibble><FILE>M:\lab2\lab2\lcd.inc</FILE><LINE>26</LINE></lcd_write_nibble>
+  <lcd_write_instr><FILE>M:\lab2\lab2\lcd.inc</FILE><LINE>38</LINE></lcd_write_instr>
+  <lcd_write_chr><FILE>M:\lab2\lab2\lcd.inc</FILE><LINE>52</LINE></lcd_write_chr>
+  <lcd_init><FILE>M:\lab2\lab2\lcd.inc</FILE><LINE>64</LINE></lcd_init>
+  <init_pins><FILE>M:\lab2\lab2\lab2.asm</FILE><LINE>60</LINE></init_pins>
+  <main><FILE>M:\lab2\lab2\lab2.asm</FILE><LINE>113</LINE></main>
+  <read_keyboard><FILE>M:\lab2\lab2\lab2.asm</FILE><LINE>85</LINE></read_keyboard>
+  <scan_key><FILE>M:\lab2\lab2\lab2.asm</FILE><LINE>87</LINE></scan_key>
+  <return_key_val><FILE>M:\lab2\lab2\lab2.asm</FILE><LINE>106</LINE></return_key_val>
+  <read_key><FILE>M:\lab2\lab2\lab2.asm</FILE><LINE>150</LINE></read_key>
+  <AB><FILE>M:\lab2\lab2\lab2.asm</FILE><LINE>164</LINE></AB>
+  <write><FILE>M:\lab2\lab2\lab2.asm</FILE><LINE>161</LINE></write>
+  <loop><FILE>M:\lab2\lab2\lab2.asm</FILE><LINE>212</LINE></loop>
+ </LABELS>
+</ASSEMBLER_INFO>
